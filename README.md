@@ -1,4 +1,3 @@
-Here's a description you can use for your GitHub project:
 
 ---
 
