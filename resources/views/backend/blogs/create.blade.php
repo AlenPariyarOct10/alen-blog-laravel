@@ -3,12 +3,7 @@
 @section("title", "Create Blogs")
 
 @section("content")
-{{--{"title",--}}
-{{--"content",--}}
-{{--"slug",--}}
-{{--"thumbnail",--}}
-{{--"rank",--}}
-{{--"highlighted"}--}}
+
     <form class="p-4" action="{{ route('backend.blogs.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
@@ -116,6 +111,8 @@
                     if(message.available)
                     {
                         document.getElementById("check_title").innerHTML = "<p class='text-success'>Title is available</p>";
+                        document.getElementById("submitBtn").disabled = false
+                        ;
 
                     }else{
                         document.getElementById("check_title").innerHTML = "<p class='text-danger'>Title is unavailable</p>";
