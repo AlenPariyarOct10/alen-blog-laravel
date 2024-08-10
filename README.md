@@ -38,10 +38,4 @@ This is a Laravel-based personal portfolio website where I can showcase and mana
 4. Run `php artisan migrate` to set up the database.
 5. Start the server with `php artisan serve`.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
-
-Feel free to customize the description further to suit your needs!
